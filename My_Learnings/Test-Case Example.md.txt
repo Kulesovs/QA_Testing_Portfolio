@@ -1,0 +1,31 @@
+# Test Case: TC-001
+
+## Title
+Verify login with valid credentials
+
+## Description
+The user is on the login page and enters valid credentials.
+
+## Preconditions
+1. User is on the login page.
+2. Valid username and password are available.
+
+## Steps
+1. Enter username "testuser".
+2. Enter password "password123".
+3. Click "Login".
+
+## Expected Result
+User is successfully logged in, and the homepage is displayed.
+
+## Actual Result
+User is not logged in, and an error message appears.
+
+## Status
+Failed
+
+## Priority
+High
+
+## Comments
+The issue occurs only in Chrome browser.

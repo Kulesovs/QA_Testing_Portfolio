@@ -1,0 +1,39 @@
+# Bug Report: BUG-001
+
+## Title
+Login fails with valid credentials
+
+## Description
+When entering valid username and password, the user cannot log in, and an error message appears.
+
+## Steps to Reproduce
+1. Go to the login page.
+2. Enter username "testuser".
+3. Enter password "password123".
+4. Click "Login".
+
+## Expected Result
+User is successfully logged in, and the homepage is displayed.
+
+## Actual Result
+User is not logged in, and an error message appears.
+
+## Attachments
+[Screenshot link]
+
+## Environment
+- Browser: Chrome 120
+- OS: Windows 10
+- App Version: 1.2.3
+
+## Priority
+High
+
+## Severity
+Critical
+
+## Status
+Open
+
+## Comments
+The issue occurs only in Chrome browser.

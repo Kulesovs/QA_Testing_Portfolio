@@ -1,31 +1,75 @@
 # Test Case: TC-001
 
-## Title
-Verify login with valid credentials
+## Summary
+Unable to close the cookie banner on the mobile web application.
 
+- - -
 ## Description
-The user is on the login page and enters valid credentials.
+When opening the web application on an iPhone 14 Pro Max using Safari or Google Chrome, the cookie banner cannot be closed, obstructing user interaction.
+
+- - -
 
 ## Preconditions
-1. User is on the login page.
-2. Valid username and password are available.
+1. The user opens the web application on an iPhone 14 Pro Max.
+2. The user uses web browsers such as Safari and Google Chrome.
+3. The cookie banner is displayed correctly, allowing the user to accept or decline cookies.
+
+- - -
 
 ## Steps
-1. Enter username "testuser".
-2. Enter password "password123".
-3. Click "Login".
+1. Open the web application.
+2. Observe the cookie banner.
+3. Attempt to close the cookie banner.
+
+- - -
 
 ## Expected Result
-User is successfully logged in, and the homepage is displayed.
+The cookie banner can be closed, and the user can interact with the web application without obstruction.
+
+- - -
 
 ## Actual Result
-User is not logged in, and an error message appears.
+The cookie banner cannot be closed, obstructing user interaction with the web application.
 
-## Status
-Failed
+- - -
+
+## Attachments
+### Screenshots
+- [Screenshot of the Issue](https://github.com/Kulesovs/QA_Testing_Portfolio/blob/main/Projects/Project_001/Logs_Screenshots_and_Videos/Screenshots/Screebshot_1.png)
+- [Screenshot of the Issue](https://github.com/Kulesovs/QA_Testing_Portfolio/blob/main/Projects/Project_001/Logs_Screenshots_and_Videos/Screenshots/Screenshot_2.png)
+
+### Video
+- [Video of the Issue](https://github.com/Kulesovs/QA_Testing_Portfolio/blob/main/Projects/Project_001/Logs_Screenshots_and_Videos/Videos/Video_001.mp4)
+
+- - -
+
+## Environment
+- **Device**: iPhone 14 Pro Max
+- **OS**: iOS 18.3.1
+- **Browsers**: Safari 18.3.1, Google Chrome 134.0
+
+- - -
 
 ## Priority
-High
+**High**
+
+- - -
+## Severity
+
+**Critical**
+
+- - - 
+
+## Status
+**<span style="color:green;">Open</span>**
+
+- - - 
+
+## Result
+**<span style="color:red;">FAILED</span>**
+
+- - -
 
 ## Comments
-The issue occurs only in Chrome browser.
+- The issue is reproducible on both Safari and Google Chrome.
+- Discovered by **Andrejs Kulesovs** on **09.03.2025 at 22:00**.

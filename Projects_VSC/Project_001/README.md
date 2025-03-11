@@ -20,7 +20,7 @@ This project involves testing the functionality of a web application on an iPhon
   - **Status**: Open
 - **Test Case**: [TC-001](https://github.com/Kulesovs/QA_Testing_Portfolio/blob/main/Projects_VSC/Project_001/Test_Cases/Exploratory_Tests/TC-001.md)
 - **Bug Report**: [BUG_001](https://github.com/Kulesovs/QA_Testing_Portfolio/blob/main/Projects_VSC/Project_001/Bug_Reports/Open_Bugs/BUG_001.md)
-- **Test Checklist**: [Check_List.md](Check_List.md)
+- **Test Checklist**: [Check_List.md](https://github.com/Kulesovs/QA_Testing_Portfolio/blob/main/Projects_VSC/Project_001/Check_List)
 ---
 
 ## Discovered By
